@@ -10,7 +10,7 @@ typedef struct login {
     char password[20];   // 20 is the maximum length of the username and password that can be entered
 } login;
 
-void login(login log) {
+void main(login log) {
     char username1[20]; // 20 is the maximum length of the username and password that can be entered
     char password1[20];     // 20 is the maximum length of the username and password that can be entered
     printf("Enter your username: ");
