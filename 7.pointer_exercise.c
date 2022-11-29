@@ -9,6 +9,7 @@ int main() {
     int a = 10;
     int *p = &a;
 //   your code goes here
+    *p=20;
     printf("%d", a);
     return 0;
 }
